@@ -1,6 +1,6 @@
 # Multi-Floor Maze Simulator (Go / Ebiten)
 
-An interactive, grid-based multi-floor maze simulator written in Go using the Ebiten game library.
+>An interactive, grid-based multi-floor maze simulator written in Go using the Ebiten game library.
 The project combines procedural maze generation, manual map editing, and pathfinding visualization (A*, Dijkstra, BFS) across multiple floors connected by stairs. Traps affect movement cost, making weighted pathfinding meaningful.
 ---
 
@@ -52,21 +52,9 @@ The project combines procedural maze generation, manual map editing, and pathfin
 ### Mouse
 
 Left click on a cell to apply the current edit mode on the active floor.
----
-
-### GUI
-
-- Joint control sliders 
-- Value input fields (Target X, Y, Z)  
-- Go to point **Idź do punktu**  
-- Start recording **Nagrywaj**  
-- Stop recording **Zakończ nagrywanie**  
-- Play trajectory **Odtwórz trajektorię**  
-- Stop playback **Zakończ odtwarzanie**  
-- Gripper position display
-- Show grid toggle **Pokaż siatkę**  
 
 ---
+
 
 ### Maze Generation
 
